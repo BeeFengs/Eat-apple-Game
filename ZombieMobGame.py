@@ -16,7 +16,7 @@ def calc_velocity(direction, vel=1.0):
 
 pygame.init()
 screen = pygame.display.set_mode((800,600))
-pygame.display.set_caption("吃苹果")
+pygame.display.set_caption("农夫吃苹果小游戏")
 font = pygame.font.Font(None, 36)
 timer = pygame.time.Clock()
 
